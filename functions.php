@@ -1,4 +1,5 @@
 <?php
+
 $pswd_length = 0;
 $pswd = "";
 
@@ -58,4 +59,4 @@ if ($pswd_length > 0 && count($params_to_use) > 0) {
     }
 }
 
-echo $pswd;
+$_SESSION['pswd'] = $pswd;

@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . '/functions.php';
+require_once __DIR__ . '/session.php';
 ?>
 
 <!DOCTYPE html>
@@ -12,7 +12,7 @@ require __DIR__ . '/functions.php';
 </head>
 
 <body>
-    <form action="." method="GET">
+    <form action="./result.php" method="GET">
         <input type="text" name="pswd_length" placeholder="Quanti caratteri vuoi inserire?">
         <button>Genera Password</button>
     </form>
